@@ -1,97 +1,698 @@
-<!DOCTYPE HTML>
-<!--
-	Identity by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Identity by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-loading">
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Dinakar Chappa</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-				<!-- Main -->
-					<section id="main">
-						<header>
-							<span class="avatar"><img src="images/avatar1.jpg" 
-							alt="" width="200px" /></span>
-							<h1>Dinakar Chappa</h1>
-							<p>Freshman Computer Science at UMD</p>
-						</header>
-						<!--
-						<hr />
-						<h2>Extra Stuff!</h2>
-						<form method="post" action="#">
-							<div class="field">
-								<input type="text" name="name" id="name" placeholder="Name" />
-							</div>
-							<div class="field">
-								<input type="email" name="email" id="email" placeholder="Email" />
-							</div>
-							<div class="field">
-								<div class="select-wrapper">
-									<select name="department" id="department">
-										<option value="">Department</option>
-										<option value="sales">Sales</option>
-										<option value="tech">Tech Support</option>
-										<option value="null">/dev/null</option>
-									</select>
-								</div>
-							</div>
-							<div class="field">
-								<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
-							</div>
-							<div class="field">
-								<input type="checkbox" id="human" name="human" /><label for="human">I'm a human</label>
-							</div>
-							<div class="field">
-								<label>But are you a robot?</label>
-								<input type="radio" id="robot_yes" name="robot" /><label for="robot_yes">Yes</label>
-								<input type="radio" id="robot_no" name="robot" /><label for="robot_no">No</label>
-							</div>
-							<ul class="actions">
-								<li><a href="#" class="button">Get Started</a></li>
-							</ul>
-						</form>
-						<hr />
-						-->
-						<footer>
-							<ul class="icons">
-								<li><a href="#" class="fa-twitter">Twitter</a></li>
-								<li><a href="#" class="fa-linkedin">LinkedIn</a></li>
-								<li><a href="#" class="fa-facebook">Facebook</a></li>
-							</ul>
-							<a href="assets/College Resume.pdf" class="button">Resume</a>
-						</footer>
-					</section>
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="copyright">
-							<li>&copy; Jane Doe</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</footer>
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
 
-			</div>
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
 
-		<!-- Scripts -->
-			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
-			<script>
-				if ('addEventListener' in window) {
-					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
-					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-				}
-			</script>
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
 
-	</body>
+</head>
+
+<body>
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Works</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">I'm Dinakar Chappa.</h1>
+            <h3>I'm a <span>2nd year Computer Science student</span> at the <span>University of Maryland - College Park</span>,  and I am looking for an internship that will allow me to enhance my problem-solving skills while developing my abilities in the field of computer science. Let's <a class="smoothscroll" href="#about">start scrolling</a>
+            and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
+            <hr />
+            <ul class="social">
+               <li><a href="https://www.linkedin.com/in/dinakar-chappa-ba3817138/"><i class="fa fa-linkedin"></i></a></li>
+				<li><a href="https://github.com/dchappa"><i class="fa fa-github"></i></a></li>
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img src="images/IMG_7045 (2).JPG" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>Hi! I'm Dinakar Chappa, a Computer Science Student at University of Maryland-College Park.
+				
+				I've worked with Java and Talend Open Studio for Enterprise Service Bus, a software designed to combine, convert and update data in various locations across a business. Although I am not well-versed, I've worked on projects with HTML, CSS, and Javascript. I've also worked with MatLab in Calculus 3, and have taken a MatLab course. 
+				
+				When I'm not in class or working on a project, you can find me playing basketball, football, or doing Bhangra, an indian-folk style dance.
+				
+				Feel free to contact me with my information below!
+            </p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+						   <span>Dinakar Chappa</span><br>
+						   <span>9347 Penrose St<br>
+						         Frederick, MD 21704
+                     </span><br>
+						   <span>(301) 660-0036</span><br>
+                     <span>dchappa@gmail.com</span>
+					   </p>
+
+               </div>
+
+               <div class="columns download">
+                  <p>
+                     <a href="images/College Resume.pdf" download="DinakarChappaResume" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>University of Maryland</h3>
+                  <p class="info">Bachelor of Science in Computer Science <span>&bull;</span> <em class="date">Present - May 2020</em></p>
+				   
+				   <p>Relevant Coursework:
+                 <ol>
+                 <li>Object Oriented Programming I (CMSC 131)  </li>
+                 <li>Calculus I (MATH 140)</li>
+                 <li>Calculus II (MATH 141)</li>
+                 <li>Introduction of MatLab(MATH 206)</li>
+                 </ol>
+                 
+                 Currently taking:
+                 <ol>
+                 	<li>Object Oriented Programming II (CMSC 132)</li>
+                 	<li>Discrete Mathematics (CMSC 250)</li>
+                 	<li>Calculus III (MATH 241)</li>
+                 </ol>
+                  
+                   </p>
+
+                  
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+      <!-- Work
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Work</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>KCPS COMPUTER SYSTEMS INC</h3>
+                  <p class="info">Junior Developer Intern <span>&bull;</span> <em class="date">May 2017- August 2017</em></p>
+
+                  <p>
+                  During my time at KCPS COMPUTER SYSTEMS INC, I got familiar with Talend Open Studio for Enterprise Service Bus(ESB), a data integration software product. Using Talend, our team worked with JURO INTL. SYSTEMS to help create an XML document for a department list of All Nippon Airways (ANA). Towards the end of my time at KCPS, our team taught another team in India the intricacies of Talend, so they would be able to carry on our work not have to deal with much of a hassle.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Best Brains</h3>
+                  <p class="info">Grader <span>&bull;</span> <em class="date">May 2015 - June 2016</em></p>
+
+                  <p>
+                  I helped grade homework that was assigned to kids ages 4-12. In times of need, I would help some teachers teach the students, primarily in advanced math (Algebra I and Geometry), while sometimes substituting for the teacher in case of absence. I would also help the administrator file homework to the proper student folder.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+
+      <!-- Skills
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Skills</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <p>These are the specific set of skills I have. In the near future, I hope to be well-versed with C and Python.
+            </p>
+
+				<div class="bars">
+
+				   <ul class="skills">
+					   <li><span class="bar-expand photoshop"></span><em>Java</em></li>
+                  <li><span class="bar-expand illustrator"></span><em>Talend Open Studio</em></li>
+						<li><span class="bar-expand wordpress"></span><em>HTML</em></li>
+                  <li><span class="bar-expand jquery"></span><em>MatLab</em></li>
+					</ul>
+
+				</div><!-- end skill-bars -->
+
+			</div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Check Out Some of My Works.</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="images/Medieval Battle.JPG">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Medieval Battle</h5>
+                              <p>CMSC 131</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
+                        <img alt="" src="images/FishClub.JPG">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Fish Club</h5>
+                              <p>CMSC 131</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-03" title="">
+                        <img alt="" src="images/Poker.JPG">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Poker</h5>
+                              <p>CMSC 131</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-04" title="">
+                        <img alt="" src="images/MandleBrot.JPG">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>MandleBrot</h5>
+                              <p>CMSC 131</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-05" title="">
+                        <img alt="" src="images/BlackJack.JPG">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>BlackJack</h5>
+                              <p>CMSC 132</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-06" title="">
+                        <img alt="" src="images/CellGame.JPG">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Clear Cell Game</h5>
+                              <p>CMSC 132</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-07" title="">
+                        <img alt="" src="images/Calculator.JPG">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Calculator</h5>
+                              <p>CMSC 132</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-08" title="">
+                        <img alt="" src="images/InterestCalc.JPG">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Interest Calculator</h5>
+                              <p>CMSC 132</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div>  <!-- item end -->
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/Medieval Battle.JPG" alt="" />
+
+		      <div class="description-box">
+			      <h4>Medieval Battle</h4>
+			      <p>In this project, we completed classes that allowed us to have soldiers face each other.</p>
+               <span class="categories"><i class="fa fa-tag"></i>For loops, method calling</span>
+		      </div>
+
+            <div class="link-box">
+              
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/FishClub.JPG" alt="" />
+
+		      <div class="description-box">
+			      <h4>Fish Club</h4>
+			      <p>In this project, we completed classes that allowed is to simulate fish life in virtual tank.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Arrays, ArrayLists, </span>
+		      </div>
+
+            <div class="link-box">
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/Poker.JPG" alt="" />
+
+		      <div class="description-box">
+			      <h4>Poker Game</h4>
+			      <p>In this project, we completed classes that allowed us to play a game of poker.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Shallow, Reference and Deep Copy, Arrays</span>
+		      </div>
+
+            <div class="link-box">
+               
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-03 End -->
+
+         <div id="modal-04" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/MandleBrot.JPG" alt="" />
+
+		      <div class="description-box">
+			      <h4>Mandlebrot Set</h4>
+			      <p>In this set, we completed classes to create a Mandlebrot Set.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Method Calling, Recursion, Complex Numbers</span>
+		      </div>
+
+            <div class="link-box">
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-04 End -->
+
+         <div id="modal-05" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/BlackJack.JPG" alt="" />
+
+		      <div class="description-box">
+			      <h4>BlackJack</h4>
+			      <p>In this project, I completed classes to create a working game of BlackJack (21)</p>
+               <span class="categories"><i class="fa fa-tag"></i>Enumerated types </span>
+		      </div>
+
+            <div class="link-box">
+                  <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-05 End -->
+
+         <div id="modal-06" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/CellGame.JPG" alt="" />
+
+		      <div class="description-box">
+			      <h4>Clear Cell Game</h4>
+			      <p>In this project, I completed classes to create a game similar to Tetris, where a clicked cell would clear all the similar cells around it.</p>
+               <span class="categories"><i class="fa fa-tag"></i>JAVA FX, Enumerated Types.</span>
+		      </div>
+
+            <div class="link-box">
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-06 End -->
+
+         <div id="modal-07" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/Calculator.JPG" alt="" />
+
+		      <div class="description-box">
+			      <h4>Calculator</h4>
+			      <p>In this project, I used JAVA FX to build a Calculator. We also learned to use a State Design Pattern and implement it with a calculator</p>
+               <span class="categories"><i class="fa fa-tag"></i>JAVA FX, Lambda Functions, State Design Pattern</span>
+		      </div>
+
+            <div class="link-box">
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-07 End -->
+
+         <div id="modal-08" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/InterestCalc.JPG" alt="" />
+
+		      <div class="description-box">
+			      <h4>Interest Calculator</h4>
+			      <p>In this project, I used JAVA FX to build an Interest Calculator. By Entering in principal, rate, and year values, it would show the accrued Simple and Compound Interest for each year.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Java FX, Lambda Functions, Inner Classes</span>
+		      </div>
+
+            <div class="link-box">
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+
+   
+
+
+   
+   <!-- Contact Section
+   ================================================== -->
+   <!--
+   <section id="contact">
+
+         <div class="row section-head">
+
+            <div class="two columns header-col">
+
+               <h1><span>Get In Touch.</span></h1>
+
+            </div>
+
+            <div class="ten columns">
+
+                  <p class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                  eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                  voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                  </p>
+
+            </div>
+
+         </div>
+
+         <div class="row">
+
+            <div class="eight columns">
+
+               <!-- form -->
+               <!--
+               <form action="" method="post" id="contactForm" name="contactForm">
+					<fieldset>
+
+                  <div>
+						   <label for="contactName">Name <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactName" name="contactName">
+                  </div>
+
+                  <div>
+						   <label for="contactEmail">Email <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+                  </div>
+
+                  <div>
+						   <label for="contactSubject">Subject</label>
+						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+                  </div>
+
+                  <div>
+                     <label for="contactMessage">Message <span class="required">*</span></label>
+                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                  </div>
+
+                  <div>
+                     <button class="submit">Submit</button>
+                     <span id="image-loader">
+                        <img alt="" src="images/loader.gif">
+                     </span>
+                  </div>
+
+					</fieldset>
+				   </form> <!-- Form End -->
+
+               <!-- contact-warning -->
+               <!--
+               <div id="message-warning"> Error boy</div>
+               <!-- contact-success -->
+               <!--
+				   <div id="message-success">
+                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+				   </div>
+
+            </div>
+
+
+            <aside class="four columns footer-widgets">
+
+               <div class="widget widget_contact">
+
+					   <h4>Address and Phone</h4>
+					   <p class="address">
+						  Dinakar Chappa<br>
+						  9347 Penrose St <br>
+						   Frederick MD, 21704<br>
+						   <span>(301) 660-0036</span>
+					   </p>
+
+				   </div>
+
+               
+            </aside>
+
+      </div>
+
+   </section> <!-- Contact Section End-->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-link">
+				<li><a href="https://github.com/dchappa"><i class="fa fa-github"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/dinakar-chappa-ba3817138/"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+
+            <ul class="copyright">
+               <li>&copy; Copyright 2014 CeeVee</li>
+               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>   
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
+</body>
+
 </html>
